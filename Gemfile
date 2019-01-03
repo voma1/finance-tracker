@@ -5,6 +5,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+# Devise
+gem 'devise'
+# Twitter bootstrap rails
+gem 'twitter-bootstrap-rails'
+# Devise bootstrap rails
+gem 'devise-bootstrap-views'
+# Jquery rails (Not included in Rails 5)
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
